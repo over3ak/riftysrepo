@@ -2,8 +2,8 @@
     "name": "My Example Source",
     "subtitle": "All my apps in one place.",
     "description": "Welcome to my source! Here you'll find all of my apps.",
-    "iconURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OctoSource.png",
-    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "iconURL": "https://example.com/icon.png",
+    "headerURL": "https://example.com/header.png",
     "website": "https://example.com",
     "tintColor": "#4185A9",
     "featuredApps": [
@@ -20,12 +20,7 @@
             "tintColor": "#1DB954",
             "screenshots": [
                 "https://example.com/spotify_screenshot1.png",
-                "https://example.com/spotify_screenshot2.png",
-                {
-                    "imageURL": "https://example.com/spotify_screenshot3.png",
-                    "width": 2556,
-                    "height": 1179
-                }
+                "https://example.com/spotify_screenshot2.png"
             ],
             "versions": [
                 {
@@ -35,37 +30,8 @@
                     "downloadURL": "https://example.com/spotify_v8.6.84.ipa",
                     "localizedDescription": "Bug fixes and improvements.",
                     "minOSVersion": "12.0"
-                },
-                {
-                    "version": "8.6.83",
-                    "date": "2023-08-15T07:00:00-08:00",
-                    "size": 95000000,
-                    "downloadURL": "https://example.com/spotify_v8.6.83.ipa",
-                    "localizedDescription": "New features and performance enhancements."
                 }
-            ],
-            "appPermissions": {
-                "entitlements": [
-                    "com.apple.developer.music-library",
-                    "com.apple.developer.networking.wifi"
-                ],
-                "privacy": {
-                    "NSPhotoLibraryUsageDescription": "App needs access to your photo library to allow uploads.",
-                    "NSMicrophoneUsageDescription": "App uses the microphone for voice commands."
-                }
-            }
-        }
-    ],
-    "news": [
-        {
-            "title": "New Spotify Update",
-            "identifier": "spotify_update",
-            "caption": "A new update for Spotify is now available.",
-            "date": "2023-09-10",
-            "tintColor": "#1DB954",
-            "imageURL": "https://example.com/spotify_update_image.png",
-            "notify": true,
-            "appID": "com.spotify.client"
+            ]
         }
     ]
 }
